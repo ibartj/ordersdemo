@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/fragment_contacts"
-        android:name="demo.inloop.orders.fragments.ContactListFragment"
+        android:name="demo.ibartj.orders.fragments.ContactListFragment"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         tools:layout="@layout/fragment_contact_list" />

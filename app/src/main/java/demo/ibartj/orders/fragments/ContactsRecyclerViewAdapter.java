@@ -1,4 +1,4 @@
-package demo.inloop.orders.fragments;
+package demo.ibartj.orders.fragments;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,10 +10,10 @@ import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.List;
 
-import demo.inloop.orders.AppContext;
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
-import demo.inloop.orders.fragments.ContactListFragment.OnListFragmentInteractionListener;
+import demo.ibartj.orders.AppContext;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
+import demo.ibartj.orders.fragments.ContactListFragment.OnListFragmentInteractionListener;
 
 /**
  * A RecyclerViewAdapter for the contact list.

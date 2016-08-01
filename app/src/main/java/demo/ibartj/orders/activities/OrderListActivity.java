@@ -1,4 +1,4 @@
-package demo.inloop.orders.activities;
+package demo.ibartj.orders.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
@@ -8,10 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
-import demo.inloop.orders.fragments.ContactInfoFragment;
-import demo.inloop.orders.fragments.OrderListFragment;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
+import demo.ibartj.orders.fragments.ContactInfoFragment;
+import demo.ibartj.orders.fragments.OrderListFragment;
 
 /**
  * Activity contains a list of orders for given contact.

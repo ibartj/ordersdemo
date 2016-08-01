@@ -1,4 +1,4 @@
-package demo.inloop.orders.activities;
+package demo.ibartj.orders.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
@@ -6,9 +6,9 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
-import demo.inloop.orders.fragments.ContactAddFragment;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
+import demo.ibartj.orders.fragments.ContactAddFragment;
 
 /**
  * Activity contains the new contact form.
@@ -47,7 +47,7 @@ public class ContactAddActivity extends AppCompatActivity implements ContactAddF
      * ContactAddFragment.OnListFragmentInteractionListener implementation allows interaction with the fragment.
      *
      * @param contact
-     * @see demo.inloop.orders.fragments.ContactAddFragment.OnFragmentInteractionListener
+     * @see demo.ibartj.orders.fragments.ContactAddFragment.OnFragmentInteractionListener
      */
     @Override
     public void onFragmentInteraction(Contact contact) {

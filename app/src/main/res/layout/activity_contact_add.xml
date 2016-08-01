@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/fragment_new_contact"
-        android:name="demo.inloop.orders.fragments.ContactAddFragment"
+        android:name="demo.ibartj.orders.fragments.ContactAddFragment"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         tools:layout="@layout/fragment_contact_add" />

@@ -1,4 +1,4 @@
-package demo.inloop.orders.fragments;
+package demo.ibartj.orders.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,12 +15,12 @@ import com.android.volley.VolleyError;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import demo.inloop.orders.AppContext;
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
-import demo.inloop.orders.data.ContactList;
-import demo.inloop.orders.utils.GsonRequest;
-import demo.inloop.orders.utils.Network;
+import demo.ibartj.orders.AppContext;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
+import demo.ibartj.orders.data.ContactList;
+import demo.ibartj.orders.utils.GsonRequest;
+import demo.ibartj.orders.utils.Network;
 
 /**
  * Contains a list of contacts in a RecyclerView.

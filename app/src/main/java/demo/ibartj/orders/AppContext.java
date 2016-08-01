@@ -1,4 +1,4 @@
-package demo.inloop.orders;
+package demo.ibartj.orders;
 
 import android.content.Context;
 
@@ -10,7 +10,7 @@ import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.JsonObjectRequest;
 
-import demo.inloop.orders.utils.GsonRequest;
+import demo.ibartj.orders.utils.GsonRequest;
 
 /**
  * Application context singleton.

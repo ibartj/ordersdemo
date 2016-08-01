@@ -1,4 +1,4 @@
-package demo.inloop.orders.utils;
+package demo.ibartj.orders.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -11,7 +11,7 @@ import com.android.volley.toolbox.HttpHeaderParser;
 
 import java.util.Map;
 
-import demo.inloop.orders.AppContext;
+import demo.ibartj.orders.AppContext;
 
 /**
  * A utility class to check the network state.

@@ -1,4 +1,4 @@
-package demo.inloop.orders.activities;
+package demo.ibartj.orders.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
-import demo.inloop.orders.fragments.ContactListFragment;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
+import demo.ibartj.orders.fragments.ContactListFragment;
 
 /**
  * Activity contains a list of contacts.
@@ -68,7 +68,7 @@ public class ContactListActivity extends AppCompatActivity implements ContactLis
      * Starts new OrderListActivity on tap at a contact.
      *
      * @param contact
-     * @see demo.inloop.orders.fragments.ContactListFragment.OnListFragmentInteractionListener
+     * @see demo.ibartj.orders.fragments.ContactListFragment.OnListFragmentInteractionListener
      * @see OrderListActivity
      */
     @Override

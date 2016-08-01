@@ -1,4 +1,4 @@
-package demo.inloop.orders.data;
+package demo.ibartj.orders.data;
 
 import java.io.Serializable;
 

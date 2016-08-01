@@ -1,4 +1,4 @@
-package demo.inloop.orders.fragments;
+package demo.ibartj.orders.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -20,9 +20,9 @@ import com.google.gson.Gson;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import demo.inloop.orders.AppContext;
-import demo.inloop.orders.R;
-import demo.inloop.orders.data.Contact;
+import demo.ibartj.orders.AppContext;
+import demo.ibartj.orders.R;
+import demo.ibartj.orders.data.Contact;
 
 /**
  * A fragment contains a new contact form.

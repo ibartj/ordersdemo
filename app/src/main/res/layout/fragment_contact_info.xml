@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context="demo.inloop.orders.fragments.ContactInfoFragment">
+    tools:context="demo.ibartj.orders.fragments.ContactInfoFragment">
 
     <TextView
         android:layout_width="match_parent"
