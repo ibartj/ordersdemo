@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Objednávky</string>
+    <string name="activity_contact_list">Kontakty</string>
+    <string name="activity_order_list">Objednávky</string>
+    <string name="activity_contact_add">Přidat nový kontakt</string>
+
+    <string name="info_phone">Telefon</string>
+    <string name="new_contact_name">Jméno a příjmení</string>
+    <string name="new_contact_phone">Telefon</string>
+    <string name="new_contact_add">Přidat</string>
+    <string name="order_pieces">%1$d x</string>
+
+    <string name="error_network">Připojení k internetu není k dispozici</string>
+    <string name="error_response">Chybná odpověď serveru</string>
+    <string name="error_sending">Chyba při odesílání dat</string>
+    <string name="error_contact_data">Chybný formát dat</string>
+    <string name="error_empty_name">Zadejte jméno a příjmení</string>
+    <string name="error_min_length_name">Jméno a příjmení musí mít minimálně 5 znaků</string>
+    <string name="error_empty_phone">Zadejte telefon</string>
+    <string name="error_min_length_phone">Telefon musí mít minimálně 5 znaků</string>
+
+    <string name="url_contacts">https://inloop-contacts.appspot.com/_ah/api/contactendpoint/v1/contact</string>
+    <string name="url_orders">https://inloop-contacts.appspot.com/_ah/api/orderendpoint/v1/order/%1$s</string>
+    <string name="url_images">http://inloop-contacts.appspot.com/%1$s</string>
+</resources>

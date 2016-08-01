@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ContactListActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:logo="@drawable/ic_logo"
+        android:titleMarginStart="@dimen/text_margin"
+        app:titleMarginStart="@dimen/text_margin"
+        app:title="@string/activity_contact_list"
+        />
+
+    <fragment
+        android:id="@+id/fragment_contacts"
+        android:name="demo.inloop.orders.fragments.ContactListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/fragment_contact_list" />
+</LinearLayout>
